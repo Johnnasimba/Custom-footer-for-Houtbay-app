@@ -2,3 +2,33 @@ body {
     background-color: whitesmoke;
 }
 
+#footer {
+    position: absolute;
+    height: 150px;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #007bff;
+  
+}
+#footer .main-footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    width: 100vw;
+    height: 50px;
+    color: white;
+}
+#footer .connection-message {
+    width: 100vw;
+    background-color: thistle;
+    height: 50px;
+}
+#footer .connection-message {
+    text-align: center;
+}
+#footer .social-media-icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    background-color: rgb(3, 80, 72);
+}
